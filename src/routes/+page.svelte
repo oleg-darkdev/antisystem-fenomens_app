@@ -41,6 +41,10 @@
 	// export let boardgame;
 </script>
 
+<svelte:head>
+  <title>Anti-system Fenomens</title>
+</svelte:head>
+
 <header data-header class="page-header">
 	<nav>
 		<ul class="nav__list">
