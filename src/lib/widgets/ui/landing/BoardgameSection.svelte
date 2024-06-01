@@ -1,11 +1,38 @@
 <script>
 	import { FactSheet, Carousel, Price } from '$lib/entities/';
 
+	// import { onMount } from 'svelte';
+
 	export let boardgame;
 </script>
 
-<!--
- -->
+<section class="section max-h-screen h-screen">
+	<header class="section__header" style='background-color: {boardgame.brandColor}'>
+		<h3 class="section__title text-black">{boardgame.title}</h3>
+	</header>
+	<div  class="section__content " data-content>
+
+		<a name='{boardgame.anchor}' />
+
+		<img
+			class="section__img"
+	src="/images/logos/{boardgame.logo}"
+			alt="Parasaurolophus"
+		/>
+
+		<h2 class="section__main-title section__main-title--left max-w-xl">{boardgame.title}</h2>
+		<div class="section__intro gentle-giants__intro">
+			<p>
+				{boardgame.shortDesc}
+			</p>
+			<p><a href="/" class='text-white'>Find out more</a></p>
+		</div>
+	</div>
+</section>
+
+
+	<!-- 
+		
 <section
 	id={boardgame.anchor}
 	style="background-position: {boardgame.align == 'start' ? 'right' : 'left'};"
@@ -22,18 +49,7 @@
 			? 'justify-self-start '
 			: 'justify-self-end ' }  glass  lg:w-6/12"
 	>
-  <!-- rounded-bl-[30px] rounded-tl-[30px] rounded-br-[30px] rounded-tr-[30px]-->
-		<!-- <div style="min-width: 320px;" class="flex h-screen flex-col items-center pt-8 pb-8 pr-2 pl-2 ">
-			<h3 class=" text-neutral-100 m-8 text-left text-5xl  font-bold md:text-6xl lg:text-6xl">
-				{boardgame.title}
-			</h3>
-			<p class="text-neutral-300 mb-2 w-11/12 text-start font-normal leading-tight md:w-8/12 lg:w-8/12">
-				{boardgame.description}
-			</p>
-			<FactSheet factsAboutBoardgame={boardgame.factsAboutBoardgame} />
-		</div> -->
-
-		<div
+  		<div
 			style="min-width: 320px;"
 			class="flex  min-h-screen w-full flex-col  items-center pt-6  pr-2  pl-2  "
 		>
@@ -60,7 +76,6 @@
 				</div>
 
 				<a id="#{boardgame.anchor}" />
-				<!-- <FactSheet factsAboutBoardgame={boardgame.factsAboutBoardgame} /> -->
 				<Carousel autoplay="2000" images={boardgame.images} />
 
 				<Price {boardgame} />
@@ -141,18 +156,16 @@
     .by_pl-bg {
 			background-image: url(/images/games/by-pl-bg.svg);
 		}
-/*
-    .squat-bg {
-			background-image: url(/images/games/squat-bg.svg);
-		} */
+
 	}
 	@media (min-device-width: 320px) and (max-device-width: 1024px) {
 		.work-wrap {
-			/* min-height: 60vh;
-			height: auto; */
+			
 		}
 		.a-bg {
 			background-color: #000;
 		}
 	}
 </style>
+
+	 -->
