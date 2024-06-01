@@ -159,7 +159,7 @@
 			{#each antISystems as boardgame}
 				<p class='flex flex-row  my-2'>
 					<img src='/images/logos/{boardgame.logo}' class='h-12 mr-6 w-auto' alt=''/>
-					<a class='text-4xl text-black px-6 py-2 rounded-md' style='background-color: {boardgame.brandColor}'  href="#{boardgame.anchor}">{boardgame.api}  »</a></p>
+					<a class='text-4xl text-black px-6 py-2 rounded-md' style='background-color: {boardgame.brandColor}'  href="https://anti-system.vercel.app/{boardgame.api}">{boardgame.api}  »</a></p>
 			{/each}
 		</div>
 	</div>
