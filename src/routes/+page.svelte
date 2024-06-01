@@ -1,7 +1,7 @@
 <script>
 	// import { FactSheet, Carousel, Price } from '$lib/entities/';
 	import { antISystems } from '$lib/shared';
-	import { BoardgameSection, Hero, Footer, SupportUs } from '$lib/widgets';
+	import { BoardgameSection, Footer, } from '$lib/widgets';
 
 	import { onMount } from 'svelte';
 
@@ -62,7 +62,7 @@
 		<div class="hero__bg">
 			<img
 				class="hero__img"
-				src="/images/bg.jpg"
+				src="/images/bg.png"
 				alt="Rainforest view with sunset"
 			/>
 		</div>
