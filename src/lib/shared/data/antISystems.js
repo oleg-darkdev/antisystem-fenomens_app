@@ -215,7 +215,7 @@ let boardgames = [
 	},
   {
 		bgImage: 'ror-bg',
-		logo: 'ror-logo.svg',
+		logo: 'ror-logo.png',
 		title: 'Rhythms of Resistance',
 		shortDesc: 'A research project consisting of a web application and a boardgame, about international network of politicized drum samba groups supporting anti-capitalist demonstrations and direct actions.',
 
