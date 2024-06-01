@@ -5,7 +5,7 @@ let boardgames = [
 		bgImage: 'a-bg',
 		logo: 'chaosTheory-logo.svg',
     shortDesc: 'A research project consisting of a web application and a boardgame, about anarchist political movement, including its activists and philosophers, and their stories.',
-    api: 'https://anti-system.vercel.app/api/anarchism',
+    api: 'https://anti-system.vercel.app/api/philosophy-of-anarchism',
 
 		title: 'Philosophy of anarchism',
 		description: [
