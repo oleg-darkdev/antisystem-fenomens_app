@@ -86,7 +86,7 @@
 		<h3 class="section__title text-black">Our mission</h3>
 	</header>
 	<div  class="section__content__about " data-content>
-		<div class="section__intro__about">
+		<div class="section__intro__about px-2">
 		<h2 class="mb-8 section__main-title section__main-title--left max-w-xl">Our mission</h2>
 
 
@@ -100,9 +100,12 @@
 
 			{#each antISystems as boardgame}
 				<p class='flex flex-row  my-2'>
-					<img src='/images/logos/{boardgame.logo}' class='h-12 mr-6 w-auto' alt=''/>
-					<a class='text-4xl ' style='color: {boardgame.brandColor}'  href="#{boardgame.anchor}">{boardgame.title}  »</a></p>
-			{/each}
+								<img src='/images/logos/{boardgame.logo}' class='lg:h-12 md:h-12 h-8 lg:mr-6 md:mr-4 mr-2 w-auto' alt='Boardgame {boardgame.title} logo'/>
+					<a class='lg:text-4xl md:text-4xl  text-lg text-black lg:px-6 md:px-4 px-2 lg:py-2 md:py-2 py-1 rounded-md' style='color: {boardgame.brandColor}'  href="{boardgame.anchor}">{boardgame.title}  »</a></p>
+			
+					{/each}
+
+
 		</div>
 	</div>
 </section>
@@ -142,7 +145,7 @@
 		<h3 class="section__title text-black">Public API</h3>
 	</header> -->
 	<div  class="section__content__about " data-content>
-		<div style="max-width: 100ch;" class="section__intro__about">
+		<div style="max-width: 100ch;" class="px-2 section__intro__about">
 		<h2 class="mb-8 section__main-title section__main-title--left max-w-xl">Public API</h2>
 		<div class='mb-4'>
 			<!-- <h3 class="mb-2 section__main-title section__main-title--left max-w-xl">OBJECTIVE</h3> -->
@@ -157,9 +160,9 @@
 
 
 			{#each antISystems as boardgame}
-				<p class='flex flex-row  my-2'>
-					<img src='/images/logos/{boardgame.logo}' class='h-12 mr-6 w-auto' alt=''/>
-					<a class='text-4xl text-black px-6 py-2 rounded-md' style='background-color: {boardgame.brandColor}'  href="https://anti-system.vercel.app/{boardgame.api}">{boardgame.api}  »</a></p>
+				<p class='flex flex-row  my-2 '>
+					<img src='/images/logos/{boardgame.logo}' class='lg:h-12 md:h-12 h-8 lg:mr-6 md:mr-4 mr-2 w-auto' alt='Boardgame {boardgame.title} logo'/>
+					<a class='lg:text-4xl md:text-4xl  text-lg text-black lg:px-6 md:px-4 px-2 lg:py-2 md:py-2 py-1 rounded-md' style='background-color: {boardgame.brandColor}'  href="https://anti-system.vercel.app/{boardgame.api}">{boardgame.api}  »</a></p>
 			{/each}
 		</div>
 	</div>
