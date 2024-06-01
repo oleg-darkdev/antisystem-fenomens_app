@@ -6,3 +6,5 @@ import AntiSystems from './ui/landing/AntiSystems.svelte';
 // import OurClients from './ui/landing/OurClients.svelte';
 
 export { BoardgameSection, Hero, AntiSystems, SupportUs, Footer };
+
+export { BoardgameSection, Hero, Aside, AntiSystems, SupportUs, AnimaterdLogo, OurClients, Footer };

@@ -4,9 +4,15 @@ let boardgames = [
 		bgImage: 'mks-bg',
 		logo: 'asssasas.svg',
 		bggRaiting: 7.2,
+		shortDesc: 'Lorem ipsum dolor sit amet, consectetur.',
+				id: 20,
 
 		title: 'ISS-14',
-		description: ['Edukacyjna kolekcjonerska gra o kosmosie i pracy na międzynarodowej stacji kosmicznej.', '', ''],
+		description: [
+			'Edukacyjna kolekcjonerska gra o kosmosie i pracy na międzynarodowej stacji kosmicznej.',
+			'',
+			''
+		],
 		align: 'end',
 		anchor: 'lorem',
 		price: '60',
@@ -15,14 +21,14 @@ let boardgames = [
 			download: '/',
 			site: 'https://mks-14-app.vercel.app/en',
 			youtube: '/',
-			bgg: ''
+			bgg: '/'
 		},
 		keywords: ['Hard-scify', 'Cosmoc', 'ISS', 'Science', ''],
 		images: [
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg'
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg'
 		],
 		factsAboutBoardgame: [
 			{
@@ -38,6 +44,8 @@ let boardgames = [
 		bgImage: 'lgbt-bg',
 		logo: 'asssasas.svg',
 		bggRaiting: 7.2,
+		shortDesc: 'Lorem ipsum dolor sit amet, consectetur.',
+				id: 21,
 
 		title: 'Lorem impsum',
 		description: ['', '', ''],
@@ -49,14 +57,14 @@ let boardgames = [
 			download: '/',
 			site: 'https://lgbt-tree.vercel.app/',
 			youtube: '/',
-			bgg: ''
+			bgg: '/'
 		},
 		keywords: ['lorem', 'lorem', 'lorem', 'lorem', ''],
 		images: [
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg'
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg'
 		],
 		factsAboutBoardgame: [
 			{
@@ -72,9 +80,14 @@ let boardgames = [
 		bgImage: 'by_pl-bg',
 		logo: 'asssasas.svg',
 		bggRaiting: 7.2,
+		shortDesc: 'Lorem ipsum dolor sit amet, consectetur.',
+				id: 22,
 
 		title: 'BY-PL - co łączy narody Białorusi i Polski',
-		description: ['Dzięki materiałom przygotowanym w ramach tego projektu dowiesz się więcej o związku tych dwóch sąsiadujących ze sobą krajów, ich historii, kulturze i tradycji.', 'Będziesz podróżować przez historyczne epoki i poruszać różne tematy, takie jak kultura, sztuka, historia i inne, aby odkryć podobieństwa i porównać, co łączy ludzi z Białorusi i Polski.',],
+		description: [
+			'Dzięki materiałom przygotowanym w ramach tego projektu dowiesz się więcej o związku tych dwóch sąsiadujących ze sobą krajów, ich historii, kulturze i tradycji.',
+			'Będziesz podróżować przez historyczne epoki i poruszać różne tematy, takie jak kultura, sztuka, historia i inne, aby odkryć podobieństwa i porównać, co łączy ludzi z Białorusi i Polski.'
+		],
 		align: 'end',
 		anchor: 'lorem',
 		price: '60',
@@ -83,14 +96,14 @@ let boardgames = [
 			download: '/',
 			site: 'https://by-pl.vercel.app/ ',
 			youtube: '/',
-			bgg: ''
+			bgg: '/'
 		},
 		keywords: ['language', 'traditions', 'ethnos', 'culture', 'Poland', 'Belarus'],
 		images: [
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg',
-			'https://www.wallpapertip.com/wmimgs/83-838296_web-designer-professional-website-background-images.jpg'
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg',
+			'https://clipground.com/images/small-flower-images-12.jpg'
 		],
 		factsAboutBoardgame: [
 			{
