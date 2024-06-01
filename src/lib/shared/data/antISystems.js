@@ -5,7 +5,7 @@ let boardgames = [
 		bgImage: 'a-bg',
 		logo: 'chaosTheory-logo.svg',
     shortDesc: 'A research project consisting of a web application and a boardgame, about anarchist political movement, including its activists and philosophers, and their stories.',
-    api: '/api/anarchism',
+    api: 'https://anti-system.vercel.app/api/anarchism',
 
 		title: 'Philosophy of anarchism',
 		description: [
@@ -41,7 +41,7 @@ let boardgames = [
 		bgImage: 'fnb-bg',
 		logo: 'fnb-logo.svg',
     shortDesc: 'A research project consisting of a web application and a boardgame, about the Food Not Bombs Initiative, the vegatarian menu and the anti-war movement.',
-    api: '/api/food-not-bombs',
+    api: 'https://anti-system.vercel.app/api/food-not-bombs',
 
 		title: 'Food not bombs',
 		description: [
@@ -78,7 +78,7 @@ let boardgames = [
 		bgImage: 'graffity-bg',
 		logo: 'graffiti-logo.svg',
 				shortDesc: 'A research project consisting of a web application and a board game dedicated to graffiti culture, street art artists from over 40 countries and the styles they employ.',
-    api: '/api/graffiti-chronicles',
+    api: 'https://anti-system.vercel.app/api/graffiti-chronicles',
 
 		title: 'Graffity Chronicles',
 		description: [
@@ -113,7 +113,7 @@ let boardgames = [
 		bgImage: 'eco-bg',
 		logo: 'ecocide-logo.svg',
     shortDesc: 'A research project consisting of a web application and a boardgame, about ecological organizations radical and moderate, their methods of activism for ecological.',
-    api: '/api/ecology',
+    api: 'https://anti-system.vercel.app/api/ecology',
 
 		title: 'Ecological protests',
 		description: [
@@ -150,7 +150,7 @@ let boardgames = [
 		bgImage: 'lgbt-bg',
 		logo: 'lgbtqia-logo.svg',
 		bggRaiting: 7.2,
-        api: '/api/lgbtqia',
+        api: 'https://anti-system.vercel.app/api/lgbtqia',
 
 		title: 'Tree of LGBTQIA+ Flags',
     shortDesc: 'Research project comprising a web application and a boardgame, about flags of the LGBTQIA+ community.',
@@ -182,7 +182,7 @@ let boardgames = [
 	{
 		bgImage: 'squat-bg',
 		logo: 'squat-logo.svg',
-    api: '/api/squatting',
+    api: 'https://anti-system.vercel.app/api/squatting',
 		title: 'Squatting action',
 		shortDesc: 'Research project comprising a web application and a boardgame about the squatting movement, social spaces, the problem of neglected houses and homelessness.',
 		description: [
@@ -229,7 +229,7 @@ let boardgames = [
 		price: '60',
 		brandColor: '#A6529A',
 		bggRaiting: 7.2,
-    api: '/api/rhytms-of-resistance',
+    api: 'https://anti-system.vercel.app/api/rhytms-of-resistance',
 
 
 		links: {
@@ -254,7 +254,7 @@ let boardgames = [
   // {
 	// 	bgImage: 'squat-bg',
 	// 	logo: 'squat-logo.svg',
-  //   api: '/api/squatting',
+  //   api: 'https://anti-system.vercel.app/api/squatting',
 	// 	title: 'Squatting action',
 	// 	shortDesc: 'Research project comprising a web application and a boardgame about the squatting movement, social spaces, the problem of neglected houses and homelessness.',
 	// 	description: [
