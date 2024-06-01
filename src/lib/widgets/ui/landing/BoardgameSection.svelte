@@ -231,7 +231,7 @@
 			background-image: url(/images/games/by-pl-bg.svg);
 		}
 
-	}
+
 	@media (min-device-width: 320px) and (max-device-width: 1024px) {
 		.work-wrap {
 			
@@ -242,4 +242,4 @@
 	}
 </style>
 
-	 -->
+	
