@@ -8,9 +8,9 @@
 	});
 </script>
 
-<main class="bg-black">
+<div class="bg-black">
 	<slot />
-</main>
+</div>
 
 <style>
 	:global(.font-roadsBlock) {
