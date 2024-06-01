@@ -1,6 +1,4 @@
 <script>
-	import { FactSheet, Carousel, Price } from '$lib/entities/';
-
 	// import { onMount } from 'svelte';
 
 	export let boardgame;
