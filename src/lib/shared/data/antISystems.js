@@ -1,13 +1,14 @@
 let boardgames = [
 	//     locators-bg? hackerspace?
-	
+
 	{
 		bgImage: 'a-bg',
 		logo: 'chaosTheory-logo.svg',
-    shortDesc: 'A research project consisting of a web application and a boardgame, about anarchist political movement, including its activists and philosophers, and their stories.',
-    api: 'https://anti-system.vercel.app/api/philosophy-of-anarchism',
+		shortDesc:
+			'A research project consisting of a web application and a boardgame, about anarchist political movement, including its activists and philosophers, and their stories.',
+		api: 'https://anti-system.vercel.app/api/philosophy-of-anarchism',
 
-		title: 'Philosophy of anarchism',
+		title: 'Anarchism philosophy',
 		description: [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -40,8 +41,9 @@ let boardgames = [
 	{
 		bgImage: 'fnb-bg',
 		logo: 'fnb-logo.svg',
-    shortDesc: 'A research project consisting of a web application and a boardgame, about the Food Not Bombs Initiative, the vegatarian menu and the anti-war movement.',
-    api: 'https://anti-system.vercel.app/api/food-not-bombs',
+		shortDesc:
+			'A research project consisting of a web application and a boardgame, about the Food Not Bombs Initiative, the vegatarian menu and the anti-war movement.',
+		api: 'https://anti-system.vercel.app/api/food-not-bombs',
 
 		title: 'Food not bombs',
 		description: [
@@ -73,12 +75,13 @@ let boardgames = [
 			}
 		]
 	},
-  
+
 	{
 		bgImage: 'graffity-bg',
 		logo: 'graffiti-logo.svg',
-				shortDesc: 'A research project consisting of a web application and a board game dedicated to graffiti culture, street art artists from over 40 countries and the styles they employ.',
-    api: 'https://anti-system.vercel.app/api/graffiti-chronicles',
+		shortDesc:
+			'A research project consisting of a web application and a board game dedicated to graffiti culture, street art artists from over 40 countries and the styles they employ.',
+		api: 'https://anti-system.vercel.app/api/graffiti-chronicles',
 
 		title: 'Graffity Chronicles',
 		description: [
@@ -112,8 +115,9 @@ let boardgames = [
 	{
 		bgImage: 'eco-bg',
 		logo: 'ecocide-logo.svg',
-    shortDesc: 'A research project consisting of a web application and a boardgame, about ecological organizations radical and moderate, their methods of activism for ecological.',
-    api: 'https://anti-system.vercel.app/api/ecology',
+		shortDesc:
+			'A research project consisting of a web application and a boardgame, about ecological organizations radical and moderate, their methods of activism for ecological.',
+		api: 'https://anti-system.vercel.app/api/ecology',
 
 		title: 'Ecological protests',
 		description: [
@@ -150,10 +154,11 @@ let boardgames = [
 		bgImage: 'lgbt-bg',
 		logo: 'lgbtqia-logo.svg',
 		bggRaiting: 7.2,
-        api: 'https://anti-system.vercel.app/api/lgbtqia',
+		api: 'https://anti-system.vercel.app/api/lgbtqia',
 
 		title: 'Tree of LGBTQIA+ Flags',
-    shortDesc: 'Research project comprising a web application and a boardgame, about flags of the LGBTQIA+ community.',
+		shortDesc:
+			'Research project comprising a web application and a boardgame, about flags of the LGBTQIA+ community.',
 		shortdescription: [
 			'Research project comprising a web application and a boardgame, about flags of the LGBTQIA+ community.'
 		],
@@ -182,9 +187,10 @@ let boardgames = [
 	{
 		bgImage: 'squat-bg',
 		logo: 'squat-logo.svg',
-    api: 'https://anti-system.vercel.app/api/squatting',
+		api: 'https://anti-system.vercel.app/api/squatting',
 		title: 'Squatting action',
-		shortDesc: 'Research project comprising a web application and a boardgame about the squatting movement, social spaces, the problem of neglected houses and homelessness.',
+		shortDesc:
+			'Research project comprising a web application and a boardgame about the squatting movement, social spaces, the problem of neglected houses and homelessness.',
 		description: [
 			`Would you like to try your hand at occupying abandoned buildings? Then this educational board game about the squatter movement is just for you.`,
 			`The squatter movement is widespread worldwide, with a long history and unique manifestations in each country. In practical terms, this means that people find vacant buildings or plots of land and use them for housing, self-managed social centers, political squats, or cultural spaces.`
@@ -213,11 +219,12 @@ let boardgames = [
 			}
 		]
 	},
-  {
+	{
 		bgImage: 'ror-bg',
 		logo: 'ror-logo.png',
 		title: 'Rhythms of Resistance',
-		shortDesc: 'A research project consisting of a web application and a boardgame, about international network of politicized drum samba groups supporting anti-capitalist demonstrations and direct actions.',
+		shortDesc:
+			'A research project consisting of a web application and a boardgame, about international network of politicized drum samba groups supporting anti-capitalist demonstrations and direct actions.',
 
 		description: [
 			`Ever wanted to take part in loud demonstrations or direct action protests? Dive into the world of rhythmic drumming and become part of the vibrant pink-and-silver carnival bloc within the transnational anti-hierarchical, anti-capitalist, anti-sexist, and anti-racist network fighting for social and environmental justice.`,
@@ -229,8 +236,7 @@ let boardgames = [
 		price: '60',
 		brandColor: '#A6529A',
 		bggRaiting: 7.2,
-    api: 'https://anti-system.vercel.app/api/rhytms-of-resistance',
-
+		api: 'https://anti-system.vercel.app/api/rhytms-of-resistance',
 
 		links: {
 			download: '/',
@@ -250,40 +256,40 @@ let boardgames = [
 			}
 		]
 	},
-  // hackerspaces
-  // {
-	// 	bgImage: 'squat-bg',
-	// 	logo: 'squat-logo.svg',
-  //   api: 'https://anti-system.vercel.app/api/squatting',
-	// 	title: 'Squatting action',
-	// 	shortDesc: 'Research project comprising a web application and a boardgame about the squatting movement, social spaces, the problem of neglected houses and homelessness.',
-	// 	description: [
-	// 		`Would you like to try your hand at occupying abandoned buildings? Then this educational board game about the squatter movement is just for you.`,
-	// 		`The squatter movement is widespread worldwide, with a long history and unique manifestations in each country. In practical terms, this means that people find vacant buildings or plots of land and use them for housing, self-managed social centers, political squats, or cultural spaces.`
-	// 	],
-	// 	align: 'start',
-	// 	anchor: 'squat-the-planet',
-	// 	price: '60',
-	// 	brandColor: '#ffffff',
-	// 	bggRaiting: 7.2,
-	// 	links: {
-	// 		download: '/',
-	// 		site: '/',
-	// 		youtube: '/',
-	// 		bgg: ''
-	// 	},
-	// 	keywords: ['CAPITALISM ', 'HOMELESS', 'SOCIALISM'],
-	// 	images: [''],
-	// 	factsAboutBoardgame: [
-	// 		{
-	// 			title: 'loe',
-	// 			subTitle: '',
-	// 			description: [
-	// 				'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-	// 			]
-	// 		}
-	// 	]
-	// },
+	{
+		bgImage: 'hackerspace-bg',
+		logo: 'hackerspace-logo.svg',
+		api: 'https://anti-system.vercel.app/api/hackerspaces',
+		title: 'Hackerspaces community',
+		shortDesc:
+			'',
+    description: [
+      `Welcome to the exciting world of hackerspaces with a An educational board game complemented by an interactive web application. “Create Your Own Hackerspace” invites players to learn how to organize a space for people with common interests in science, technology, digital and electronic arts.`,
+    `Players will be able to learn how to create an environment for socializing, co-creation and the culture of direct democracy.`
+],
+		align: 'start',
+		anchor: 'hackerspaces',
+		price: '60',
+		brandColor: '#008CD2',
+		bggRaiting: 7.2,
+		links: {
+			download: '/',
+			site: '/',
+			youtube: '/',
+			bgg: ''
+		},
+		keywords: ['TECHNOLOGIES  ', 'DEMOCRACY', 'HACKTIVISM'],
+		images: [''],
+		factsAboutBoardgame: [
+			{
+				title: 'loe',
+				subTitle: '',
+				description: [
+					'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
+				]
+			}
+		]
+	}
 ];
 
 export default boardgames;
