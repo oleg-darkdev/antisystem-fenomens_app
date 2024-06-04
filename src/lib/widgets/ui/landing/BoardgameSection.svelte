@@ -20,7 +20,7 @@
 
 		<h2 class="section__main-title section__main-title--left max-w-xl">{boardgame.title}</h2>
 		<div class="section__intro gentle-giants__intro">
-			<p>
+			<p class='mb-6'>
 				{boardgame.shortDesc}
 			</p>
 			<p><a href="/" class='text-white'>Find out more</a></p>
@@ -31,7 +31,6 @@
 
 
 <style>
-	
+
 </style>
 
-	
