@@ -21,7 +21,7 @@ let boardgames = [
 
 		links: {
 			download: '/',
-			site: 'https://chaos-theory.vercel.app/en',
+			site: 'https://chaos-theory.vercel.app/',
 			youtube: '/',
 			bgg: '/'
 		},
@@ -59,7 +59,7 @@ let boardgames = [
 
 		links: {
 			download: '/',
-			site: '/',
+			site: '',
 			youtube: '/',
 			bgg: '/'
 		},
@@ -96,11 +96,11 @@ let boardgames = [
 
 		links: {
 			download: '/',
-			site: 'https://graffity-cultute.vercel.app/',
+			site: 'https://graffity-chronicles.vercel.app/',
 			youtube: '/',
 			bgg: '/'
 		},
-		keywords: ['stree-art', 'Underground', 'Counterculture ', '', ''],
+		keywords: ['stree-art', 'Underground', 'Counterculture '],
 		images: [''],
 		factsAboutBoardgame: [
 			{
@@ -133,7 +133,7 @@ let boardgames = [
 
 		links: {
 			download: '/',
-			site: 'https://ecocide.vercel.app/en',
+			site: 'https://ecocide.vercel.app',
 			youtube: '/',
 			bgg: '/'
 		},
@@ -203,7 +203,7 @@ let boardgames = [
 		bggRaiting: 7.2,
 		links: {
 			download: '/',
-			site: '/',
+			site: '',
 			youtube: '/',
 			bgg: '/'
 		},
@@ -240,7 +240,7 @@ let boardgames = [
 
 		links: {
 			download: '/',
-			site: '/',
+			site: '',
 			youtube: '/',
 			bgg: ''
 		},
@@ -260,7 +260,7 @@ let boardgames = [
 		bgImage: 'hackerspace-bg',
 		logo: 'hackerspace-logo.svg',
 		api: 'https://anti-system.vercel.app/api/hackerspaces',
-		title: 'Hackerspaces community',
+		title: 'Hacker spaces community',
 		shortDesc:
 			'',
     description: [
@@ -274,7 +274,7 @@ let boardgames = [
 		bggRaiting: 7.2,
 		links: {
 			download: '/',
-			site: '/',
+			site: '',
 			youtube: '/',
 			bgg: ''
 		},
