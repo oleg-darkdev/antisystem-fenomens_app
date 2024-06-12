@@ -4,7 +4,14 @@
 
 
 
-@import url("https://fonts.googleapis.com/css?family=Anton|Overpass+Mono:600&display=swap");
+@font-face {
+  font-family: bebasNeue;
+  src: url("fonts/BebasNeue.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("");
 /* Variables */
 /* Mixins and functions */
 /* Reset */
@@ -35,10 +42,8 @@ body {
   font-family: "Overpass Mono", monospace;
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Anton", sans-serif;
+.font-bebasNeue {
+  font-family: "bebasNeue", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   line-height: 1;
