@@ -262,7 +262,7 @@ let boardgames = [
 		api: 'https://anti-system.vercel.app/api/hackerspaces',
 		title: 'Hacker spaces community',
 		shortDesc:
-			'',
+			'A research project consisting of a web application and a board game about hackerspaces and independent creative technical spaces.',
     description: [
       `Welcome to the exciting world of hackerspaces with a An educational board game complemented by an interactive web application. “Create Your Own Hackerspace” invites players to learn how to organize a space for people with common interests in science, technology, digital and electronic arts.`,
     `Players will be able to learn how to create an environment for socializing, co-creation and the culture of direct democracy.`
