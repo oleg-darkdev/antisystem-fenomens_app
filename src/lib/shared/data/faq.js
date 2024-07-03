@@ -31,7 +31,8 @@ const faq = [
 		q: 'What are the terms of use and distribution under the CC BY-NC-SA 4.0 license?',
 		a: [
 			'The game is licensed under the Creative Commons BY-NC-SA 4.0, allowing you to share and adapt the material.',
-			'You must give appropriate credit, not use the material for commercial purposes, and distribute your contributions under the same license. More about Creative Commons BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/'
+			'You must give appropriate credit, not use the material for commercial purposes, and distribute your contributions under the same license. More about Creative Commons BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/',
+      `If you have ideas for collaboration - get in touch with me.`
 		]
 	}
 ];
