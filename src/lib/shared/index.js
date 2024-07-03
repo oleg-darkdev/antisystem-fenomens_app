@@ -2,6 +2,8 @@ import antISystems from './data/antISystems';
 import social from './data/social';
 import historical from './data/historical';
 import menu from './data/menu';
+import faq from './data/faq';
+;
 import emptyBoardgame from './data/emptyBoardgame';
 import contactLinks from './data/contactLinks';
 import {
@@ -26,4 +28,4 @@ const logos= [
 ]
 
 
-export { antISystems, social, historical, logos, graffiti, lgbtqia, anarchism, eco, fnb, ror, hs, squat };
+export { antISystems, social, historical, logos, graffiti, lgbtqia, anarchism, eco, fnb, ror, hs, squat, faq };
